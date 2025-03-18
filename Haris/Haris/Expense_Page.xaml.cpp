@@ -93,7 +93,7 @@ namespace winrt::Haris::implementation
         file.close();
 
         // Show success message
-        OutputMessage().Text(L"? Expense added successfully! File saved at: " + to_hstring(filePath));
+        OutputMessage().Text(L"? Expense added successfully! File saved at: " );
 
         // Clear input fields after adding
         ExpenseInput().Text(L"");

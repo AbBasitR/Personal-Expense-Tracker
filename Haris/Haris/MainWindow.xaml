@@ -7,9 +7,14 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Title="Haris">
+    Title="Haris"
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
+    
+    >
+    <Grid Background="#D3D3D3" Width ="Auto" Height ="Auto">
+  
+    <StackPanel   Background="Black"  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button Padding="10"  x:Name="myButton" Click="myButton_Click">Welcome To Personal Finance Tracker</Button>
     </StackPanel>
+    </Grid>
 </Window>

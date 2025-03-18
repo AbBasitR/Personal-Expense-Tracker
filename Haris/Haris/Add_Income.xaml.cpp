@@ -95,7 +95,7 @@ namespace winrt::Haris::implementation
         file.close();
 
         // Show success message
-        OutputMessage().Text(L"? Income added successfully! File saved at: " + to_hstring(filePath));
+        OutputMessage().Text(L"? Income added successfully! File saved at: " );
 
         // Clear input fields after adding
         IncomeInput().Text(L"");
