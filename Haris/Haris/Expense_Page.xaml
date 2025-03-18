@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Haris.Expense_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Haris"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#2C3E50">
+    <!-- Dark Background -->
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="25">
+
+            <!-- Header -->
+            <TextBlock Text="Add Expense" FontSize="36" FontWeight="Bold"
+                       Foreground="White" HorizontalAlignment="Center"/>
+
+            <!-- Expense Input -->
+            <TextBox x:Name="ExpenseInput" PlaceholderText="Enter Expense"
+                     InputScope="Number"
+                     Width="380" Height="45" FontSize="18"
+                     BorderBrush="White" BorderThickness="2"
+                     Foreground="White" Background="#34495E"
+                     TextAlignment="Left"/>
+
+            <!-- Expense Category Selection -->
+            <StackPanel Orientation="Horizontal" Spacing="15" HorizontalAlignment="Center">
+                <RadioButton x:Name="FoodRadio" Content="Food" Foreground="White" FontSize="18"/>
+                <RadioButton x:Name="RentRadio" Content="Rent" Foreground="White" FontSize="18"/>
+                <RadioButton x:Name="BillsRadio" Content="Bills" Foreground="White" FontSize="18"/>
+            </StackPanel>
+
+            <TextBlock x:Name="OutputMessage" Text="" FontSize="18" Foreground="White"
+           HorizontalAlignment="Center" TextWrapping="Wrap"/>
+
+            <!-- Add Expense Button -->
+            <Button x:Name="AddExpenseButton" Content="Add Expense" Click="AddExpenseButton_Click"
+                    Width="280" Height="50" FontSize="20"
+                    Background="#E74C3C" Foreground="White"
+                    CornerRadius="10" BorderBrush="White" BorderThickness="2"/>
+
+            <!-- Back Button -->
+            <Button x:Name="BackButton" Content="Back" Click="BackButton_Click"
+                        Margin="0 0 235 0 "
+                    Width="150" Height="45" FontSize="18"
+                    Background="#16A085" Foreground="White"
+                    CornerRadius="10" BorderBrush="White" BorderThickness="2"
+                    HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>

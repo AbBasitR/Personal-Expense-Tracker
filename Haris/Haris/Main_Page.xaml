@@ -1,0 +1,98 @@
+<Page
+    x:Class="Haris.Main_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Haris"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#2C3E50">
+        <!-- Title Section -->
+        <TextBlock
+            Text="Personal Finance Manager"
+            FontSize="36"
+            FontWeight="Bold"
+            Foreground="White"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Margin="0,40,0,0"
+        />
+
+        <!-- StackPanel for Buttons -->
+        <StackPanel
+            Orientation="Vertical"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Margin="0,100,0,0"
+            Spacing="20">
+
+            <!-- Add Monthly Income Button -->
+            <Button
+                x:Name="addMonthlyIncomeButton"
+                FontSize="20"
+                Background="#27AE60" 
+                Foreground="White"
+                Padding="15,10"
+                Width="250"
+                BorderBrush="#27AE60"
+         
+                BorderThickness="2"
+      
+                Click="addMonthlyIncomeButton_Click">
+                Income Management
+            </Button>
+
+            <!-- Income Button -->
+            <Button
+                x:Name="incomeButton"
+                FontSize="20"
+                Background="#2ECC71" 
+                Foreground="White"
+                Padding="15,10"
+                Width="250"
+                BorderBrush="#2ECC71"
+     
+                BorderThickness="2"
+         
+                Click="incomeButton_Click">
+                Expense Tracking
+            </Button>
+
+            <!-- Outgoing Income Button -->
+            <Button
+                x:Name="outIncomeButton"
+                FontSize="20"
+                Background="#16A085" 
+                Foreground="White"
+                Padding="15,10"
+                Width="250"
+                BorderBrush="#16A085"
+   
+                BorderThickness="2"
+      
+                Click="outIncomeButton_Click">
+                 Savings Goals
+            </Button>
+
+            <!-- Report Button -->
+            <Button
+                x:Name="reportButton"
+                FontSize="20"
+                Background="#1ABC9C"
+                Foreground="White"
+                Padding="15,10"
+                Width="250"
+                BorderBrush="#1ABC9C"
+       
+                BorderThickness="2"
+      
+                Click="reportButton_Click">
+                Report 
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</Page>
+
+

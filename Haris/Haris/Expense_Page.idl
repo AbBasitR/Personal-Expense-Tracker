@@ -1,0 +1,9 @@
+namespace Haris
+{
+    [default_interface]
+    runtimeclass Expense_Page : Microsoft.UI.Xaml.Controls.Page
+    {
+        Expense_Page();
+        Int32 MyProperty;
+    }
+}

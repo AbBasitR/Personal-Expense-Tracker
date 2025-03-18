@@ -1,0 +1,9 @@
+namespace Haris
+{
+    [default_interface]
+    runtimeclass Add_Income : Microsoft.UI.Xaml.Controls.Page
+    {
+        Add_Income();
+        Int32 MyProperty;
+    }
+}

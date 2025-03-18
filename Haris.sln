@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Haris (Package)", "Haris\Haris (Package)\Haris (Package).wapproj", "{0780025E-F20E-478A-9313-4A7618AC3A72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Haris", "Haris\Haris\Haris.vcxproj", "{6C6A5C00-B768-4062-B6BB-4C58A7890C67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Debug|ARM64.Build.0 = Debug|ARM64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Debug|x64.ActiveCfg = Debug|x64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Debug|x64.Build.0 = Debug|x64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Debug|x64.Deploy.0 = Debug|x64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Debug|x86.ActiveCfg = Debug|x86
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Debug|x86.Build.0 = Debug|x86
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Debug|x86.Deploy.0 = Debug|x86
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Release|ARM64.ActiveCfg = Release|ARM64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Release|ARM64.Build.0 = Release|ARM64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Release|ARM64.Deploy.0 = Release|ARM64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Release|x64.ActiveCfg = Release|x64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Release|x64.Build.0 = Release|x64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Release|x64.Deploy.0 = Release|x64
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Release|x86.ActiveCfg = Release|x86
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Release|x86.Build.0 = Release|x86
+		{0780025E-F20E-478A-9313-4A7618AC3A72}.Release|x86.Deploy.0 = Release|x86
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Debug|ARM64.Build.0 = Debug|ARM64
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Debug|x64.ActiveCfg = Debug|x64
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Debug|x64.Build.0 = Debug|x64
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Debug|x86.Build.0 = Debug|Win32
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Release|ARM64.ActiveCfg = Release|ARM64
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Release|ARM64.Build.0 = Release|ARM64
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Release|x64.ActiveCfg = Release|x64
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Release|x64.Build.0 = Release|x64
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Release|x86.ActiveCfg = Release|Win32
+		{6C6A5C00-B768-4062-B6BB-4C58A7890C67}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4CC406D-C03D-49C1-8ABF-0E219E1ACF84}
+	EndGlobalSection
+EndGlobal

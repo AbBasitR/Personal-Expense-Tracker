@@ -1,0 +1,72 @@
+<Page
+    x:Class="Haris.Report_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#2C3E50" Padding="30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Title -->
+        <TextBlock Grid.ColumnSpan="2" Text="Financial Report" FontSize="36" 
+                   FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <!-- Income Section -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Background="#27AE60" Padding="20" CornerRadius="12"
+                    VerticalAlignment="Center" Margin="10">
+            <TextBlock Text="Income" FontSize="22" FontWeight="Bold" Foreground="White"
+                       HorizontalAlignment="Center"/>
+            <ScrollViewer Height="200" VerticalScrollBarVisibility="Auto">
+                <TextBlock x:Name="IncomeText" Text="Income details will appear here..." 
+                           FontSize="16" TextWrapping="Wrap" Foreground="White"/>
+            </ScrollViewer>
+        </StackPanel>
+
+        <!-- Expense Section -->
+        <StackPanel Grid.Row="1" Grid.Column="1" Background="#E74C3C" Padding="20" CornerRadius="12"
+                    VerticalAlignment="Center" Margin="10">
+            <TextBlock Text="Expenses" FontSize="22" FontWeight="Bold" Foreground="White"
+                       HorizontalAlignment="Center"/>
+            <ScrollViewer Height="200" VerticalScrollBarVisibility="Auto">
+                <TextBlock x:Name="ExpenseText" Text="Expense details will appear here..." 
+                           FontSize="16" TextWrapping="Wrap" Foreground="White"/>
+            </ScrollViewer>
+        </StackPanel>
+
+        <!-- Bottom Section -->
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                    Margin="10" Spacing="10">
+
+            <StackPanel Orientation="Horizontal" Spacing="15">
+                <Button x:Name="ReportButton" Content="Generate Report" Click="ReportButton_Click"
+                        Background="#1ABC9C" Foreground="White" FontSize="18" Padding="12,6"
+                        CornerRadius="8" BorderBrush="#1ABC9C" BorderThickness="2"/>
+
+                <!-- Remaining Amount Display -->
+                <StackPanel Background="White" Padding="15" CornerRadius="10" Width="200">
+                    <TextBlock Text="Remaining Amount" FontSize="18" FontWeight="Bold"
+                               Foreground="Black" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="RemainingAmountText" Text="0" FontSize="18" Foreground="Black"
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Back Button -->
+            <Button x:Name="BackButton" Content="Back" Click="BackButton_Click"
+                    Width="250" Height="50" FontSize="20"
+                    Background="#16A085" Foreground="White"
+                    CornerRadius="10" BorderBrush="White" BorderThickness="2"
+                    HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>
